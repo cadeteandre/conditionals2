@@ -3,17 +3,25 @@ function quarterSales() {
     const salesMonth: number = Math.ceil(Math.random() * 12);
     let salesQuarter: string;
 
-    switch(true) {
-        case (salesMonth >= 1 && salesMonth <= 3):
+    switch(salesMonth) {
+        case 1:
+        case 2:
+        case 3:
             salesQuarter = '1.Quartal';
         break;
-        case (salesMonth >= 4 && salesMonth <= 6):
+        case 4:
+        case 5:
+        case 6:
             salesQuarter = '2.Quartal';
         break;
-        case (salesMonth >= 7 && salesMonth <= 9):
+        case 7:
+        case 8:
+        case 9:
             salesQuarter = '3.Quartal';
         break;
-        case (salesMonth >= 10 && salesMonth <= 12):
+        case 10:
+        case 11:
+        case 12:
             salesQuarter = '4.Quartal';
         break;
     }
