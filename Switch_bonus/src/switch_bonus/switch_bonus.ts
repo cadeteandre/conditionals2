@@ -1,6 +1,6 @@
 const salesMonth: number = Math.ceil(Math.random() * 12);
 const totalSales: number = Math.floor(Math.random() * (10000 - 1000 + 1)) + 1000;
-let salesQuarter: string;
+let salesQuarter: string = "";
 let salesResult: string;
 console.log(`Quarter: ${salesMonth}`);
 console.log(`Total sales: ${totalSales}`);
